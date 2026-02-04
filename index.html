@@ -23,16 +23,16 @@
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
 
-  <header role="banner">
-    <nav role="navigation" aria-label="Main navigation">
+  <header role="banner" class="header">
+    <nav role="navigation" aria-label="Main navigation" class="header__nav">
       <div class="nav-container">
         <h1 class="school-name">Our School</h1>
-        <ul role="list">
-          <li><a href="#home" aria-current="page">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#programs">Programs</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul role="list" class="header__menu">
+          <li class="header__menu-item"><a href="#home" class="header__link" aria-current="page">Home</a></li>
+          <li class="header__menu-item"><a href="#about" class="header__link">About</a></li>
+          <li class="header__menu-item"><a href="#programs" class="header__link">Programs</a></li>
+          <li class="header__menu-item"><a href="#news" class="header__link">News</a></li>
+          <li class="header__menu-item"><a href="#contact" class="header__link">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -41,31 +41,31 @@
   <main id="main" role="main">
     <section id="home" class="hero-section" aria-labelledby="hero-title">
       <div class="hero-content">
-        <h2 id="hero-title">Empowering Minds, Shaping Futures</h2>
-        <p class="hero-subtitle">Welcome to a community dedicated to academic excellence and personal growth</p>
-        <a href="#contact" class="cta-button" role="button">Get Started Today</a>
+        <h2 id="hero-title" class="hero__title">Empowering Minds, Shaping Futures</h2>
+        <p class="hero__subtitle">Welcome to a community dedicated to academic excellence and personal growth</p>
+        <a href="#contact" class="cta-button hero__cta" role="button">Get Started Today</a>
       </div>
     </section>
 
     <section id="about" class="about-section" aria-labelledby="about-title">
       <div class="section-container">
-        <h2 id="about-title">About Our School</h2>
-        <div class="about-content">
-          <div class="about-text">
+        <h2 id="about-title" class="about__title">About Our School</h2>
+        <div class="about__content">
+          <div class="about__text">
             <p>Founded on the principles of academic excellence and holistic development, our school has been a beacon of learning for over three decades. We believe in nurturing not just the minds, but also the hearts of our students.</p>
             <p>Our dedicated faculty, state-of-the-art facilities, and innovative curriculum create an environment where students thrive academically, socially, and emotionally. We prepare our students to become confident, compassionate, and capable leaders of tomorrow.</p>
-            <div class="about-stats">
-              <div class="stat-item">
-                <strong>30+</strong>
-                <span>Years of Excellence</span>
+            <div class="about__stats">
+              <div class="about__stat-item">
+                <strong class="about__stat-value">30+</strong>
+                <span class="about__stat-label">Years of Excellence</span>
               </div>
-              <div class="stat-item">
-                <strong>2000+</strong>
-                <span>Students</span>
+              <div class="about__stat-item">
+                <strong class="about__stat-value">2000+</strong>
+                <span class="about__stat-label">Students</span>
               </div>
-              <div class="stat-item">
-                <strong>150+</strong>
-                <span>Faculty Members</span>
+              <div class="about__stat-item">
+                <strong class="about__stat-value">150+</strong>
+                <span class="about__stat-label">Faculty Members</span>
               </div>
             </div>
           </div>
@@ -75,40 +75,40 @@
 
     <section id="programs" class="programs-section" aria-labelledby="programs-title">
       <div class="section-container">
-        <h2 id="programs-title">Our Programs</h2>
-        <p class="section-intro">Discover our comprehensive educational programs designed to inspire and challenge students at every level</p>
+        <h2 id="programs-title" class="programs__title">Our Programs</h2>
+        <p class="section-intro programs__intro">Discover our comprehensive educational programs designed to inspire and challenge students at every level</p>
 
-        <div class="programs-grid">
-          <article class="program-card">
-            <div class="program-icon" aria-hidden="true">📚</div>
-            <h3>Elementary Education</h3>
-            <p>Building strong foundations in core subjects through interactive and engaging learning experiences. Our elementary program focuses on developing fundamental skills in literacy, numeracy, and social development.</p>
-            <ul class="program-features">
-              <li>Small class sizes for personalized attention</li>
-              <li>Hands-on learning activities</li>
-              <li>Art, music, and physical education</li>
+        <div class="programs__grid">
+          <article class="programs__card">
+            <div class="programs__icon" aria-hidden="true">📚</div>
+            <h3 class="programs__card-title">Elementary Education</h3>
+            <p class="programs__card-description">Building strong foundations in core subjects through interactive and engaging learning experiences. Our elementary program focuses on developing fundamental skills in literacy, numeracy, and social development.</p>
+            <ul class="programs__features">
+              <li class="programs__feature-item">Small class sizes for personalized attention</li>
+              <li class="programs__feature-item">Hands-on learning activities</li>
+              <li class="programs__feature-item">Art, music, and physical education</li>
             </ul>
           </article>
 
-          <article class="program-card">
-            <div class="program-icon" aria-hidden="true">🔬</div>
-            <h3>Middle School</h3>
-            <p>Challenging young minds with advanced curriculum and extracurricular opportunities. Our middle school program bridges elementary and high school, fostering critical thinking and independence.</p>
-            <ul class="program-features">
-              <li>STEM and humanities courses</li>
-              <li>Leadership development programs</li>
-              <li>Sports and clubs</li>
+          <article class="programs__card">
+            <div class="programs__icon" aria-hidden="true">🔬</div>
+            <h3 class="programs__card-title">Middle School</h3>
+            <p class="programs__card-description">Challenging young minds with advanced curriculum and extracurricular opportunities. Our middle school program bridges elementary and high school, fostering critical thinking and independence.</p>
+            <ul class="programs__features">
+              <li class="programs__feature-item">STEM and humanities courses</li>
+              <li class="programs__feature-item">Leadership development programs</li>
+              <li class="programs__feature-item">Sports and clubs</li>
             </ul>
           </article>
 
-          <article class="program-card">
-            <div class="program-icon" aria-hidden="true">🎓</div>
-            <h3>High School</h3>
-            <p>Preparing students for college and career success through rigorous academics and real-world experiences. Our high school offers advanced placement courses and comprehensive college counseling.</p>
-            <ul class="program-features">
-              <li>AP and honors courses</li>
-              <li>College preparation and guidance</li>
-              <li>Internship opportunities</li>
+          <article class="programs__card">
+            <div class="programs__icon" aria-hidden="true">🎓</div>
+            <h3 class="programs__card-title">High School</h3>
+            <p class="programs__card-description">Preparing students for college and career success through rigorous academics and real-world experiences. Our high school offers advanced placement courses and comprehensive college counseling.</p>
+            <ul class="programs__features">
+              <li class="programs__feature-item">AP and honors courses</li>
+              <li class="programs__feature-item">College preparation and guidance</li>
+              <li class="programs__feature-item">Internship opportunities</li>
             </ul>
           </article>
         </div>
@@ -117,28 +117,28 @@
 
     <section id="news" class="news-section" aria-labelledby="news-title">
       <div class="section-container">
-        <h2 id="news-title">Latest News & Events</h2>
+        <h2 id="news-title" class="news__title">Latest News & Events</h2>
 
-        <div class="news-grid">
-          <article class="news-item">
-            <time datetime="2024-03-15" class="news-date">March 15, 2024</time>
-            <h3>Science Fair Excellence</h3>
-            <p>Our students showcased remarkable projects at the annual science fair, with three teams advancing to the regional competition. The innovative projects ranged from renewable energy solutions to biotechnology applications.</p>
-            <a href="#" class="read-more">Read more</a>
+        <div class="news__grid">
+          <article class="news__card">
+            <time datetime="2024-03-15" class="news__date">March 15, 2024</time>
+            <h3 class="news__card-title">Science Fair Excellence</h3>
+            <p class="news__card-description">Our students showcased remarkable projects at the annual science fair, with three teams advancing to the regional competition. The innovative projects ranged from renewable energy solutions to biotechnology applications.</p>
+            <a href="#" class="news__read-more">Read more</a>
           </article>
 
-          <article class="news-item">
-            <time datetime="2024-03-10" class="news-date">March 10, 2024</time>
-            <h3>Spring Musical Announcement</h3>
-            <p>The drama department is proud to announce this year's spring musical production. Auditions will be held next week for all interested students. Don't miss this opportunity to be part of our theatrical tradition.</p>
-            <a href="#" class="read-more">Read more</a>
+          <article class="news__card">
+            <time datetime="2024-03-10" class="news__date">March 10, 2024</time>
+            <h3 class="news__card-title">Spring Musical Announcement</h3>
+            <p class="news__card-description">The drama department is proud to announce this year's spring musical production. Auditions will be held next week for all interested students. Don't miss this opportunity to be part of our theatrical tradition.</p>
+            <a href="#" class="news__read-more">Read more</a>
           </article>
 
-          <article class="news-item">
-            <time datetime="2024-03-05" class="news-date">March 5, 2024</time>
-            <h3>Athletic Championship Victory</h3>
-            <p>Congratulations to our varsity basketball team for winning the district championship! The team's dedication, teamwork, and sportsmanship have made the entire school community proud.</p>
-            <a href="#" class="read-more">Read more</a>
+          <article class="news__card">
+            <time datetime="2024-03-05" class="news__date">March 5, 2024</time>
+            <h3 class="news__card-title">Athletic Championship Victory</h3>
+            <p class="news__card-description">Congratulations to our varsity basketball team for winning the district championship! The team's dedication, teamwork, and sportsmanship have made the entire school community proud.</p>
+            <a href="#" class="news__read-more">Read more</a>
           </article>
         </div>
       </div>
@@ -146,38 +146,38 @@
 
     <section id="contact" class="contact-section" aria-labelledby="contact-title">
       <div class="section-container">
-        <h2 id="contact-title">Get in Touch</h2>
-        <p class="section-intro">Have questions or want to learn more about our school? We'd love to hear from you!</p>
+        <h2 id="contact-title" class="contact__title">Get in Touch</h2>
+        <p class="section-intro contact__intro">Have questions or want to learn more about our school? We'd love to hear from you!</p>
 
-        <div class="contact-content">
-          <div class="contact-info">
-            <div class="info-item">
-              <h3>Visit Us</h3>
-              <p>123 Education Avenue<br>Learning City, ST 12345</p>
+        <div class="contact__content">
+          <div class="contact__info">
+            <div class="contact__info-item">
+              <h3 class="contact__info-title">Visit Us</h3>
+              <p class="contact__info-text">123 Education Avenue<br>Learning City, ST 12345</p>
             </div>
 
-            <div class="info-item">
-              <h3>Call Us</h3>
-              <p><a href="tel:+15551234567">(555) 123-4567</a></p>
+            <div class="contact__info-item">
+              <h3 class="contact__info-title">Call Us</h3>
+              <p class="contact__info-text"><a href="tel:+15551234567" class="contact__link">(555) 123-4567</a></p>
             </div>
 
-            <div class="info-item">
-              <h3>Email Us</h3>
-              <p><a href="mailto:info@ourschool.edu">info@ourschool.edu</a></p>
+            <div class="contact__info-item">
+              <h3 class="contact__info-title">Email Us</h3>
+              <p class="contact__info-text"><a href="mailto:info@ourschool.edu" class="contact__link">info@ourschool.edu</a></p>
             </div>
 
-            <div class="info-item">
-              <h3>Office Hours</h3>
-              <p>Monday - Friday: 8:00 AM - 4:00 PM<br>Saturday: By appointment</p>
+            <div class="contact__info-item">
+              <h3 class="contact__info-title">Office Hours</h3>
+              <p class="contact__info-text">Monday - Friday: 8:00 AM - 4:00 PM<br>Saturday: By appointment</p>
             </div>
           </div>
 
-          <form class="contact-form" method="POST" action="/submit-contact" novalidate>
-            <fieldset>
-              <legend>Contact Form</legend>
+          <form class="contact__form" method="POST" action="/submit-contact" novalidate>
+            <fieldset class="contact__fieldset">
+              <legend class="contact__legend">Contact Form</legend>
 
-              <div class="form-group">
-                <label for="name">
+              <div class="contact__form-group">
+                <label for="name" class="contact__label">
                   Full Name
                   <span aria-label="required">*</span>
                 </label>
@@ -185,6 +185,7 @@
                   type="text"
                   id="name"
                   name="name"
+                  class="contact__input"
                   required
                   aria-required="true"
                   autocomplete="name"
@@ -192,8 +193,8 @@
                 >
               </div>
 
-              <div class="form-group">
-                <label for="email">
+              <div class="contact__form-group">
+                <label for="email" class="contact__label">
                   Email Address
                   <span aria-label="required">*</span>
                 </label>
@@ -201,6 +202,7 @@
                   type="email"
                   id="email"
                   name="email"
+                  class="contact__input"
                   required
                   aria-required="true"
                   autocomplete="email"
@@ -209,28 +211,30 @@
                 >
               </div>
 
-              <div class="form-group">
-                <label for="phone">
+              <div class="contact__form-group">
+                <label for="phone" class="contact__label">
                   Phone Number
                 </label>
                 <input
                   type="tel"
                   id="phone"
                   name="phone"
+                  class="contact__input"
                   autocomplete="tel"
                   inputmode="tel"
                   placeholder="(555) 123-4567"
                 >
               </div>
 
-              <div class="form-group">
-                <label for="interest">
+              <div class="contact__form-group">
+                <label for="interest" class="contact__label">
                   Area of Interest
                   <span aria-label="required">*</span>
                 </label>
                 <select
                   id="interest"
                   name="interest"
+                  class="contact__select"
                   required
                   aria-required="true"
                 >
@@ -243,8 +247,8 @@
                 </select>
               </div>
 
-              <div class="form-group">
-                <label for="message">
+              <div class="contact__form-group">
+                <label for="message" class="contact__label">
                   Message
                   <span aria-label="required">*</span>
                 </label>
@@ -252,13 +256,14 @@
                   id="message"
                   name="message"
                   rows="5"
+                  class="contact__textarea"
                   required
                   aria-required="true"
                   placeholder="Tell us how we can help you..."
                 ></textarea>
               </div>
 
-              <button type="submit" class="submit-button">
+              <button type="submit" class="submit-button contact__submit">
                 Send Message
               </button>
             </fieldset>
@@ -268,36 +273,36 @@
     </section>
   </main>
 
-  <footer role="contentinfo">
-    <div class="footer-container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>Our School</h3>
-          <p>Committed to excellence in education since 1990</p>
+  <footer role="contentinfo" class="footer">
+    <div class="footer__container">
+      <div class="footer__content">
+        <div class="footer__section">
+          <h3 class="footer__title">Our School</h3>
+          <p class="footer__text">Committed to excellence in education since 1990</p>
         </div>
 
-        <div class="footer-section">
-          <h3>Quick Links</h3>
-          <ul role="list">
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#programs">Programs</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <div class="footer__section">
+          <h3 class="footer__title">Quick Links</h3>
+          <ul role="list" class="footer__list">
+            <li class="footer__list-item"><a href="#about" class="footer__link">About Us</a></li>
+            <li class="footer__list-item"><a href="#programs" class="footer__link">Programs</a></li>
+            <li class="footer__list-item"><a href="#news" class="footer__link">News</a></li>
+            <li class="footer__list-item"><a href="#contact" class="footer__link">Contact</a></li>
           </ul>
         </div>
 
-        <div class="footer-section">
-          <h3>Connect</h3>
-          <ul role="list">
-            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <div class="footer__section">
+          <h3 class="footer__title">Connect</h3>
+          <ul role="list" class="footer__list">
+            <li class="footer__list-item"><a href="https://facebook.com" class="footer__link" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li class="footer__list-item"><a href="https://twitter.com" class="footer__link" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            <li class="footer__list-item"><a href="https://instagram.com" class="footer__link" target="_blank" rel="noopener noreferrer">Instagram</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="footer-bottom">
-        <p>&copy; 2024 Our School. All rights reserved. | <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2024 Our School. All rights reserved. | <a href="/privacy" class="footer__legal-link">Privacy Policy</a> | <a href="/terms" class="footer__legal-link">Terms of Service</a></p>
       </div>
     </div>
   </footer>
