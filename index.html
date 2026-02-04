@@ -3,22 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Welcome to our educational institution. Discover quality education, diverse programs, and a nurturing learning environment for students of all ages.">
-  <meta name="keywords" content="school, education, learning, programs, academics, student life">
+  <meta name="description" content="Oakwood Academy - A premier educational institution committed to academic excellence, creative innovation, and athletic achievement. Discover quality education in a nurturing learning environment.">
+  <meta name="keywords" content="Oakwood Academy, school, education, learning, programs, academics, student life, STEM, arts, athletics">
 
-  <meta property="og:title" content="Excellence in Education | Our School">
-  <meta property="og:description" content="Providing quality education and fostering student growth in a supportive environment">
+  <meta property="og:title" content="Oakwood Academy - Excellence in Education">
+  <meta property="og:description" content="Providing quality education and fostering student growth in a supportive environment since 1990">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ourschool.edu">
-  <meta property="og:image" content="https://ourschool.edu/images/og-image.jpg">
+  <meta property="og:url" content="https://oakwoodacademy.edu">
+  <meta property="og:image" content="https://oakwoodacademy.edu/images/hero-bg.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Excellence in Education | Our School">
-  <meta name="twitter:description" content="Providing quality education and fostering student growth in a supportive environment">
+  <meta name="twitter:title" content="Oakwood Academy - Excellence in Education">
+  <meta name="twitter:description" content="Providing quality education and fostering student growth in a supportive environment since 1990">
 
-  <title>Excellence in Education | Our School</title>
+  <title>Oakwood Academy - Excellence in Education</title>
 
   <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Oakwood Academy",
+    "description": "A premier educational institution committed to academic excellence, creative innovation, and athletic achievement",
+    "url": "https://oakwoodacademy.edu",
+    "logo": "https://oakwoodacademy.edu/images/logo.png",
+    "foundingDate": "1990",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "350 Oakwood Drive",
+      "addressLocality": "Springfield",
+      "addressRegion": "MA",
+      "postalCode": "01109",
+      "addressCountry": "US"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-413-555-2100",
+      "contactType": "Admissions",
+      "email": "admissions@oakwoodacademy.edu"
+    }
+  }
+  </script>
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -26,7 +52,7 @@
   <header role="banner" class="header">
     <nav role="navigation" aria-label="Main navigation" class="header__nav">
       <div class="nav-container">
-        <h1 class="school-name">Our School</h1>
+        <h1 class="school-name">Oakwood Academy</h1>
         <button
           type="button"
           class="mobile-menu-button"
@@ -54,30 +80,34 @@
     <section id="home" class="hero-section" aria-labelledby="hero-title">
       <div class="hero-content">
         <h2 id="hero-title" class="hero__title">Empowering Minds, Shaping Futures</h2>
-        <p class="hero__subtitle">Welcome to a community dedicated to academic excellence and personal growth</p>
-        <a href="#contact" class="cta-button hero__cta" role="button">Get Started Today</a>
+        <p class="hero__subtitle">Where academic excellence meets creative innovation and athletic achievement</p>
+        <a href="#contact" class="cta-button hero__cta" role="button">Schedule Your Visit</a>
       </div>
     </section>
 
     <section id="about" class="about-section" aria-labelledby="about-title" data-reveal>
       <div class="section-container">
-        <h2 id="about-title" class="about__title">About Our School</h2>
+        <h2 id="about-title" class="about__title">About Oakwood Academy</h2>
         <div class="about__content">
+          <div class="about__image">
+            <img src="images/about-school.jpg" alt="Diverse students engaged in collaborative learning activities at Oakwood Academy" loading="lazy" width="800" height="600">
+          </div>
           <div class="about__text">
-            <p>Founded on the principles of academic excellence and holistic development, our school has been a beacon of learning for over three decades. We believe in nurturing not just the minds, but also the hearts of our students.</p>
-            <p>Our dedicated faculty, state-of-the-art facilities, and innovative curriculum create an environment where students thrive academically, socially, and emotionally. We prepare our students to become confident, compassionate, and capable leaders of tomorrow.</p>
+            <p>Founded in 1990, Oakwood Academy has established itself as a beacon of educational excellence in Springfield. Our mission is to cultivate curious, confident, and compassionate learners who are prepared to make meaningful contributions to our global society.</p>
+            <p>We believe education extends beyond textbooks and test scores. Our holistic approach integrates rigorous academics with character development, creative expression, and physical wellness. Through innovative teaching methods and a supportive community, we nurture each student's unique talents and aspirations.</p>
+            <p>Our state-of-the-art facilities, award-winning faculty, and comprehensive programs create an environment where students don't just learn—they thrive. From our science laboratories to our art studios, from our athletic fields to our music halls, every space at Oakwood is designed to inspire discovery and excellence.</p>
             <div class="about__stats">
               <div class="about__stat-item">
-                <strong class="about__stat-value">30+</strong>
+                <strong class="about__stat-value">34</strong>
                 <span class="about__stat-label">Years of Excellence</span>
               </div>
               <div class="about__stat-item">
-                <strong class="about__stat-value">2000+</strong>
-                <span class="about__stat-label">Students</span>
+                <strong class="about__stat-value">1,850</strong>
+                <span class="about__stat-label">Active Students</span>
               </div>
               <div class="about__stat-item">
-                <strong class="about__stat-value">150+</strong>
-                <span class="about__stat-label">Faculty Members</span>
+                <strong class="about__stat-value">142</strong>
+                <span class="about__stat-label">Faculty & Staff</span>
               </div>
             </div>
           </div>
@@ -88,39 +118,51 @@
     <section id="programs" class="programs-section" aria-labelledby="programs-title" data-reveal>
       <div class="section-container">
         <h2 id="programs-title" class="programs__title">Our Programs</h2>
-        <p class="section-intro programs__intro">Discover our comprehensive educational programs designed to inspire and challenge students at every level</p>
+        <p class="section-intro programs__intro">Discover our comprehensive educational programs designed to inspire curiosity, foster creativity, and build excellence</p>
 
         <div class="programs__grid">
           <article class="programs__card">
-            <div class="programs__icon" aria-hidden="true">📚</div>
-            <h3 class="programs__card-title">Elementary Education</h3>
-            <p class="programs__card-description">Building strong foundations in core subjects through interactive and engaging learning experiences. Our elementary program focuses on developing fundamental skills in literacy, numeracy, and social development.</p>
-            <ul class="programs__features">
-              <li class="programs__feature-item">Small class sizes for personalized attention</li>
-              <li class="programs__feature-item">Hands-on learning activities</li>
-              <li class="programs__feature-item">Art, music, and physical education</li>
-            </ul>
-          </article>
-
-          <article class="programs__card">
+            <div class="programs__image">
+              <img src="images/programs-1.jpg" alt="Students conducting advanced science experiments in modern laboratory setting" loading="lazy" width="400" height="300">
+            </div>
             <div class="programs__icon" aria-hidden="true">🔬</div>
-            <h3 class="programs__card-title">Middle School</h3>
-            <p class="programs__card-description">Challenging young minds with advanced curriculum and extracurricular opportunities. Our middle school program bridges elementary and high school, fostering critical thinking and independence.</p>
+            <h3 class="programs__card-title">Academic Excellence</h3>
+            <p class="programs__card-description">Our rigorous academic program emphasizes STEM education, critical thinking, and problem-solving skills. Students engage with cutting-edge technology, advanced placement courses, and research opportunities that prepare them for top-tier universities.</p>
             <ul class="programs__features">
-              <li class="programs__feature-item">STEM and humanities courses</li>
-              <li class="programs__feature-item">Leadership development programs</li>
-              <li class="programs__feature-item">Sports and clubs</li>
+              <li class="programs__feature-item">Advanced STEM curriculum with robotics and coding</li>
+              <li class="programs__feature-item">15 AP courses and honors programs</li>
+              <li class="programs__feature-item">Partnership with local universities for dual enrollment</li>
+              <li class="programs__feature-item">Average SAT score: 1380 (top 10% nationally)</li>
             </ul>
           </article>
 
           <article class="programs__card">
-            <div class="programs__icon" aria-hidden="true">🎓</div>
-            <h3 class="programs__card-title">High School</h3>
-            <p class="programs__card-description">Preparing students for college and career success through rigorous academics and real-world experiences. Our high school offers advanced placement courses and comprehensive college counseling.</p>
+            <div class="programs__image">
+              <img src="images/programs-2.jpg" alt="Students creating art and expressing creativity in modern art studio" loading="lazy" width="400" height="300">
+            </div>
+            <div class="programs__icon" aria-hidden="true">🎨</div>
+            <h3 class="programs__card-title">Creative Arts</h3>
+            <p class="programs__card-description">Our comprehensive arts program nurtures creative expression through visual arts, music, theater, and digital media. Students explore their artistic talents in professional-grade studios and performance spaces under the guidance of accomplished artists.</p>
             <ul class="programs__features">
-              <li class="programs__feature-item">AP and honors courses</li>
-              <li class="programs__feature-item">College preparation and guidance</li>
-              <li class="programs__feature-item">Internship opportunities</li>
+              <li class="programs__feature-item">Professional art studios and music practice rooms</li>
+              <li class="programs__feature-item">Annual theater productions and art exhibitions</li>
+              <li class="programs__feature-item">Digital media lab with video editing and animation</li>
+              <li class="programs__feature-item">Scholarship opportunities for exceptional talent</li>
+            </ul>
+          </article>
+
+          <article class="programs__card">
+            <div class="programs__image">
+              <img src="images/programs-3.jpg" alt="Student athletes training and competing on modern athletic facilities" loading="lazy" width="400" height="300">
+            </div>
+            <div class="programs__icon" aria-hidden="true">⚽</div>
+            <h3 class="programs__card-title">Athletic Programs</h3>
+            <p class="programs__card-description">Our championship athletic program promotes physical fitness, teamwork, and sportsmanship. With 18 varsity sports and state-of-the-art facilities, we develop well-rounded athletes who excel both on the field and in the classroom.</p>
+            <ul class="programs__features">
+              <li class="programs__feature-item">18 varsity sports with championship-winning teams</li>
+              <li class="programs__feature-item">Olympic-size pool and fitness center</li>
+              <li class="programs__feature-item">Professional coaching staff and athletic trainers</li>
+              <li class="programs__feature-item">95% of athletes qualify for college programs</li>
             </ul>
           </article>
         </div>
@@ -133,23 +175,23 @@
 
         <div class="news__grid">
           <article class="news__card">
-            <time datetime="2024-03-15" class="news__date">March 15, 2024</time>
-            <h3 class="news__card-title">Science Fair Excellence</h3>
-            <p class="news__card-description">Our students showcased remarkable projects at the annual science fair, with three teams advancing to the regional competition. The innovative projects ranged from renewable energy solutions to biotechnology applications.</p>
+            <time datetime="2024-01-15" class="news__date">January 15, 2024</time>
+            <h3 class="news__card-title">Oakwood Robotics Team Advances to National Championship</h3>
+            <p class="news__card-description">Our robotics team has secured first place at the regional competition, earning them a spot at the National FIRST Robotics Championship in Houston this April. The team's innovative design and exceptional programming skills impressed judges and competitors alike.</p>
             <a href="#" class="news__read-more">Read more</a>
           </article>
 
           <article class="news__card">
-            <time datetime="2024-03-10" class="news__date">March 10, 2024</time>
-            <h3 class="news__card-title">Spring Musical Announcement</h3>
-            <p class="news__card-description">The drama department is proud to announce this year's spring musical production. Auditions will be held next week for all interested students. Don't miss this opportunity to be part of our theatrical tradition.</p>
+            <time datetime="2024-01-08" class="news__date">January 8, 2024</time>
+            <h3 class="news__card-title">Spring Arts Festival Showcases Student Talent</h3>
+            <p class="news__card-description">Mark your calendars for our annual Spring Arts Festival on March 22-24. The three-day event will feature student art exhibitions, musical performances, theater productions, and a special alumni showcase. Admission is free and open to the public.</p>
             <a href="#" class="news__read-more">Read more</a>
           </article>
 
           <article class="news__card">
-            <time datetime="2024-03-05" class="news__date">March 5, 2024</time>
-            <h3 class="news__card-title">Athletic Championship Victory</h3>
-            <p class="news__card-description">Congratulations to our varsity basketball team for winning the district championship! The team's dedication, teamwork, and sportsmanship have made the entire school community proud.</p>
+            <time datetime="2023-12-20" class="news__date">December 20, 2023</time>
+            <h3 class="news__card-title">Girls Soccer Team Wins State Championship</h3>
+            <p class="news__card-description">Congratulations to our varsity girls soccer team for clinching the state championship with a thrilling 3-2 victory in overtime! This marks the team's second consecutive state title and their fifth in the past decade. The entire Oakwood community celebrates this remarkable achievement.</p>
             <a href="#" class="news__read-more">Read more</a>
           </article>
         </div>
@@ -159,28 +201,28 @@
     <section id="contact" class="contact-section" aria-labelledby="contact-title" data-reveal>
       <div class="section-container">
         <h2 id="contact-title" class="contact__title">Get in Touch</h2>
-        <p class="section-intro contact__intro">Have questions or want to learn more about our school? We'd love to hear from you!</p>
+        <p class="section-intro contact__intro">Interested in joining the Oakwood Academy family? We'd love to hear from you and help you discover how our programs can benefit your child.</p>
 
         <div class="contact__content">
           <div class="contact__info">
             <div class="contact__info-item">
-              <h3 class="contact__info-title">Visit Us</h3>
-              <p class="contact__info-text">123 Education Avenue<br>Learning City, ST 12345</p>
+              <h3 class="contact__info-title">Visit Our Campus</h3>
+              <p class="contact__info-text">350 Oakwood Drive<br>Springfield, MA 01109</p>
             </div>
 
             <div class="contact__info-item">
-              <h3 class="contact__info-title">Call Us</h3>
-              <p class="contact__info-text"><a href="tel:+15551234567" class="contact__link">(555) 123-4567</a></p>
+              <h3 class="contact__info-title">Admissions Office</h3>
+              <p class="contact__info-text"><a href="tel:+14135552100" class="contact__link">(413) 555-2100</a></p>
             </div>
 
             <div class="contact__info-item">
               <h3 class="contact__info-title">Email Us</h3>
-              <p class="contact__info-text"><a href="mailto:info@ourschool.edu" class="contact__link">info@ourschool.edu</a></p>
+              <p class="contact__info-text"><a href="mailto:admissions@oakwoodacademy.edu" class="contact__link">admissions@oakwoodacademy.edu</a></p>
             </div>
 
             <div class="contact__info-item">
               <h3 class="contact__info-title">Office Hours</h3>
-              <p class="contact__info-text">Monday - Friday: 8:00 AM - 4:00 PM<br>Saturday: By appointment</p>
+              <p class="contact__info-text">Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 2:00 PM (by appointment)</p>
             </div>
           </div>
 
@@ -236,7 +278,7 @@
                   class="contact__input"
                   autocomplete="tel"
                   inputmode="tel"
-                  placeholder="(555) 123-4567"
+                  placeholder="(413) 555-0100"
                 >
               </div>
 
@@ -256,9 +298,11 @@
                   <option value="">Select an option</option>
                   <option value="admission">Admission Information</option>
                   <option value="programs">Academic Programs</option>
-                  <option value="visit">Schedule a Visit</option>
+                  <option value="visit">Schedule a Campus Visit</option>
+                  <option value="athletics">Athletic Programs</option>
+                  <option value="arts">Creative Arts Programs</option>
                   <option value="employment">Employment Opportunities</option>
-                  <option value="other">Other</option>
+                  <option value="other">Other Inquiry</option>
                 </select>
               </div>
 
@@ -275,7 +319,7 @@
                   required
                   aria-required="true"
                   aria-invalid="false"
-                  placeholder="Tell us how we can help you..."
+                  placeholder="Tell us about your interest in Oakwood Academy..."
                 ></textarea>
               </div>
 
@@ -293,8 +337,8 @@
     <div class="footer__container">
       <div class="footer__content">
         <div class="footer__section">
-          <h3 class="footer__title">Our School</h3>
-          <p class="footer__text">Committed to excellence in education since 1990</p>
+          <h3 class="footer__title">Oakwood Academy</h3>
+          <p class="footer__text">Empowering minds and shaping futures since 1990. A premier educational institution committed to academic excellence, creative innovation, and athletic achievement.</p>
         </div>
 
         <div class="footer__section">
@@ -302,23 +346,24 @@
           <ul role="list" class="footer__list">
             <li class="footer__list-item"><a href="#about" class="footer__link">About Us</a></li>
             <li class="footer__list-item"><a href="#programs" class="footer__link">Programs</a></li>
-            <li class="footer__list-item"><a href="#news" class="footer__link">News</a></li>
+            <li class="footer__list-item"><a href="#news" class="footer__link">News & Events</a></li>
             <li class="footer__list-item"><a href="#contact" class="footer__link">Contact</a></li>
           </ul>
         </div>
 
         <div class="footer__section">
-          <h3 class="footer__title">Connect</h3>
+          <h3 class="footer__title">Connect With Us</h3>
           <ul role="list" class="footer__list">
-            <li class="footer__list-item"><a href="https://facebook.com" class="footer__link" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li class="footer__list-item"><a href="https://twitter.com" class="footer__link" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            <li class="footer__list-item"><a href="https://instagram.com" class="footer__link" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li class="footer__list-item"><a href="https://facebook.com/oakwoodacademy" class="footer__link" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li class="footer__list-item"><a href="https://twitter.com/oakwoodacademy" class="footer__link" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            <li class="footer__list-item"><a href="https://instagram.com/oakwoodacademy" class="footer__link" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li class="footer__list-item"><a href="https://linkedin.com/school/oakwood-academy" class="footer__link" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer__bottom">
-        <p class="footer__copyright">&copy; 2024 Our School. All rights reserved. | <a href="/privacy" class="footer__legal-link">Privacy Policy</a> | <a href="/terms" class="footer__legal-link">Terms of Service</a></p>
+        <p class="footer__copyright">&copy; 2024 Oakwood Academy. All rights reserved. | <a href="/privacy" class="footer__legal-link">Privacy Policy</a> | <a href="/terms" class="footer__legal-link">Terms of Service</a> | <a href="/accessibility" class="footer__legal-link">Accessibility</a></p>
       </div>
     </div>
   </footer>
