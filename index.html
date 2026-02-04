@@ -27,7 +27,19 @@
     <nav role="navigation" aria-label="Main navigation" class="header__nav">
       <div class="nav-container">
         <h1 class="school-name">Our School</h1>
-        <ul role="list" class="header__menu">
+        <button
+          type="button"
+          class="mobile-menu-button"
+          data-mobile-menu-button
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Toggle navigation menu"
+        >
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+        <ul role="list" class="header__menu" id="mobile-menu" data-mobile-menu>
           <li class="header__menu-item"><a href="#home" class="header__link" aria-current="page">Home</a></li>
           <li class="header__menu-item"><a href="#about" class="header__link">About</a></li>
           <li class="header__menu-item"><a href="#programs" class="header__link">Programs</a></li>
@@ -47,7 +59,7 @@
       </div>
     </section>
 
-    <section id="about" class="about-section" aria-labelledby="about-title">
+    <section id="about" class="about-section" aria-labelledby="about-title" data-reveal>
       <div class="section-container">
         <h2 id="about-title" class="about__title">About Our School</h2>
         <div class="about__content">
@@ -73,7 +85,7 @@
       </div>
     </section>
 
-    <section id="programs" class="programs-section" aria-labelledby="programs-title">
+    <section id="programs" class="programs-section" aria-labelledby="programs-title" data-reveal>
       <div class="section-container">
         <h2 id="programs-title" class="programs__title">Our Programs</h2>
         <p class="section-intro programs__intro">Discover our comprehensive educational programs designed to inspire and challenge students at every level</p>
@@ -115,7 +127,7 @@
       </div>
     </section>
 
-    <section id="news" class="news-section" aria-labelledby="news-title">
+    <section id="news" class="news-section" aria-labelledby="news-title" data-reveal>
       <div class="section-container">
         <h2 id="news-title" class="news__title">Latest News & Events</h2>
 
@@ -144,7 +156,7 @@
       </div>
     </section>
 
-    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+    <section id="contact" class="contact-section" aria-labelledby="contact-title" data-reveal>
       <div class="section-container">
         <h2 id="contact-title" class="contact__title">Get in Touch</h2>
         <p class="section-intro contact__intro">Have questions or want to learn more about our school? We'd love to hear from you!</p>
@@ -188,6 +200,7 @@
                   class="contact__input"
                   required
                   aria-required="true"
+                  aria-invalid="false"
                   autocomplete="name"
                   placeholder="Enter your full name"
                 >
@@ -205,6 +218,7 @@
                   class="contact__input"
                   required
                   aria-required="true"
+                  aria-invalid="false"
                   autocomplete="email"
                   inputmode="email"
                   placeholder="your.email@example.com"
@@ -237,6 +251,7 @@
                   class="contact__select"
                   required
                   aria-required="true"
+                  aria-invalid="false"
                 >
                   <option value="">Select an option</option>
                   <option value="admission">Admission Information</option>
@@ -259,6 +274,7 @@
                   class="contact__textarea"
                   required
                   aria-required="true"
+                  aria-invalid="false"
                   placeholder="Tell us how we can help you..."
                 ></textarea>
               </div>
